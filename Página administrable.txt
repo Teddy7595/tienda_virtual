@@ -1,0 +1,44 @@
+Página Totalmente administrable ¿podemos cambiar los nombres de los filtros por ejemplo para adicionar más?
+
+ Re: Si... La parte administrativa contará con una interfaz para añadir, cambiar nombre y retirar CATEGORIAS (o tambien llamado FILTROS)
+
+•	¿Tendremos categorías adicionales en blanco ocultas para nosotros posteriormente activar según tenga requerimientos q no tengamos identificados aun?
+
+Re: Esto es un poco el punto anterior, de requerirse una categoria nueva, se podrá añadir por la interfaz de administración
+
+•	Acceso a ocultar las categorías q queramos para visitantes o pyme
+
+Re: Podemos añadir esto, dentro de las funcionalidades de administrador.
+
+•	¿Cuándo el usuario vea el primer anuncio de su visita le puede aparecer la opción de q le lleguen notificaciones? ¿O como lo hacemos para q no sea intrusivo?
+
+Re: Si, habrá un momento de primer acceso de sesión y en este momento se podrá preguntar si desea recbir notificaciones, de todos modos habrá una opción disponible que el usuario podrá activar o desactivar para recibir o dejar de recibir notificaciones
+
+•	podemos tener una parte donde el anunciante marque la cantidad de meses q tendrá la publicidad y eso indexarlo al precio y o paquetes que diseñemos desde el área comercial?
+
+Re: Si, al momento de crear la publicación.. el usuario podrá seleccionar de meses y de esta forma multiplicarlo por el (COSTO DEL MES) para asi tener el precio total que tendrá que pagar el usuario..
+Si, en el area comercial de administración podrá modificar parametros tales como (costo del mes de publicaciones) y crear planes o paquetes como por ejemplo (5 meses por el precio de 3) O lo que se desee plantear en cuestión.
+
+
+•	¿Q podamos extender tiempo de anuncio el quedarse en la plataforma dado un click nosotros y correo automático al anunciante para q lo renueve?
+	Re: Habrá un sistema de detección que estará cada dia analizando cuales son las publicaciones con pocos dias de actividad, para avisarle al dueño y asi pueda renovar el tiempo de publicidad.
+
+•	En pasarela. ¿De pago se genera factura? O como se. ¿Maneja eso? ¿Luego se envía al correo? ¿Debe ser manual ya?
+	Re: Si, se genera una orden de pedido que incluira todos los datos referentes a esa transaccion, tales como por ejemplo (nombre de dueño, nombre de publicación, meses, costo total, fecha de pago), al momento de pagar el usuario recibirá un correo con estos detalles.
+
+- Poder revisar el post para ser aprobados, antes de que salga en las búsquedas, evitando que se publique pornografía o armas, entre otros...
+	Re: Si, el sistema administrativo, tendrá que validar las publicaciones una vez sean creadas.
+
+- La parte de las calificaciones va a ser por Likes o por estrellas?
+	Re: Ambas, tendrá likes y calificaciones de estrella para mejorar la importancia o relevancia de las publicaciones.
+
+-Los datos de cada cuenta donde van a ser arrojados? Dónde se va a poder ver la base de datos y se puede especificar en qué orden se guarden? Ejemplo: ver qué cantidad de mujeres y hombres están inscritos, cuales son sus preferencias y edades... O que capacidades tiene esta base de datos
+Re: Si, en el panel de administración estará listado la cantidad de usuarios, mostrando si son naturales o juridicos, por genero, por edades, por distintos departamentos etc.
+
+
+•	Podemos dejar las otras 2 pestañas listas, las q en inicio teníamos previstas para Factoring y Bonos (solo en blanco pero ocultas para cuando queramos llenarlas con alternativas como las plantillas para página web?)
+
+Re: Si, puedo crear las paginas de esas dos secciones en blanco sin ningun tipo de contenido.
+
+- En la interna de los post junto con las estrellas, podremos ver los comentarios de usuarios que hayan adquirido el producto servicio, sería solo para usuarios registrados
+	Si, los usuarios registrados podrán dejar una pequeña reseña si asi lo desean.

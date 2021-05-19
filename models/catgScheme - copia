@@ -1,0 +1,41 @@
+var mongoose = require('mongoose');
+var uniqueValidator = require('mongoose-unique-validator');
+var moment = require('moment');
+var dateMoment = moment();
+moment.locale('es');
+
+var Scheme = mongoose.Schema;
+
+var child = new Scheme
+({
+    name:
+    {
+        type: String,
+        required:[true, 'Se debe asignar un nombre a la subcategoria'],
+        unique: true
+    }
+});
+
+
+var categoryScheme = new Scheme
+({
+    _category:
+    {
+        type:String,
+        required:[true, 'Debe asignar un nombre a la categoria'],
+        unique: true
+    },
+
+    _child:[child],
+
+    created_at:
+    {
+        type:Date,
+        required:true,
+        default: dateMoment.format('LL')
+    }
+});
+
+categoryScheme.plugin(uniqueValidator, {response: '{PATH} debe ser único'});
+
+module.exports = mongoose.model('Category', categoryScheme);

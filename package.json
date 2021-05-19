@@ -1,0 +1,26 @@
+{
+  "name": "Pymes-Backend",
+  "version": "0.0.1",
+  "description": "Este es el lado del servidor del proyecto",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ForgeSystems",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.25.1",
+    "mongoose": "^5.9.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.3"
+  }
+}
